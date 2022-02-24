@@ -1,5 +1,5 @@
 #FROM adoptopenjdk/openjdk11:latest
-FROM amazoncorretto:11
+FROM 461902953491.dkr.ecr.eu-central-1.amazonaws.com/openjdk:latest
 
 EXPOSE 8080
 
