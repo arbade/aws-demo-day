@@ -4,9 +4,8 @@ phases:
     commands:
       - echo Logging in to Amazon ECR...
       - aws --version
-      - AWS_REGION=eu-central-1
-      - $(aws ecr-public get-login-password --region us-east-1 | docker login --username AWS --password-stdin public.ecr.aws/j1g4g9x2)
-      - REPOSITORY_URI=public.ecr.aws/j1g4g9x2/arbade-demo:latest
+      - $(aws ecr get-login --region $AWS_DEFAULT_REGION --no-include-email)
+      - REPOSITORY_URI=461902953491.dkr.ecr.eu-central-1.amazonaws.com/arbade-demo
       - COMMIT_HASH=$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)
       - IMAGE_TAG=build-$(echo $CODEBUILD_BUILD_ID | awk -F":" '{print $2}')
   build:
