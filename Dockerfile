@@ -1,4 +1,5 @@
-FROM adoptopenjdk/openjdk11:latest
+#FROM adoptopenjdk/openjdk11:latest
+FROM amazoncorretto:11
 
 EXPOSE 8080
 
