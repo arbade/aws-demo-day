@@ -29,11 +29,3 @@ phases:
 artifacts:
     files: 
       - imagedefinitions.json
-      - target/gjg.jar
-      - 'appspec.yaml'
-      - 'taskdef.json'
-    secondary-artifacts:
-      DefinitionArtifact:
-        files:
-          - appspec.yaml
-          - taskdef.json
