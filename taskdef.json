@@ -1,6 +1,6 @@
 {
   "ipcMode": null,
-  "executionRoleArn": "arn:aws:iam::461902953491:role/ecsTaskExecutionRole",
+  "executionRoleArn": "arn:aws:iam::461902953491:role/ecstaskexecution",
   "containerDefinitions": [
     {
       "dnsSearchDomains": null,
@@ -9,7 +9,7 @@
         "logDriver": "awslogs",
         "secretOptions": null,
         "options": {
-          "awslogs-group": "/ecs/arda-demo",
+          "awslogs-group": "/ecs/arda-demo-2",
           "awslogs-region": "eu-central-1",
           "awslogs-stream-prefix": "ecs"
         }
@@ -37,7 +37,7 @@
       "memoryReservation": null,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "461902953491.dkr.ecr.eu-central-1.amazonaws.com/arbade-demo:latest",
+      "image": "461902953491.dkr.ecr.eu-central-1.amazonaws.com/arda-demo:latest",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -54,18 +54,18 @@
       "dockerLabels": null,
       "systemControls": null,
       "privileged": null,
-      "name": "arbade-demo"
+      "name": "arda-demo"
     }
   ],
   "placementConstraints": [],
   "memory": "2048",
-  "taskRoleArn": "arn:aws:iam::461902953491:role/ecsTaskExecutionRole",
+  "taskRoleArn": "arn:aws:iam::461902953491:role/ecstaskexecution",
   "compatibilities": [
     "EC2",
     "FARGATE"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:eu-central-1:461902953491:task-definition/arda-demo:6",
-  "family": "arda-demo",
+  "taskDefinitionArn": "arn:aws:ecs:eu-central-1:461902953491:task-definition/arda-demo-2:2",
+  "family": "arda-demo-2",
   "requiresAttributes": [
     {
       "targetId": null,
@@ -126,7 +126,7 @@
     "cpuArchitecture": null
   },
   "cpu": "1024",
-  "revision": 6,
+  "revision": 2,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
