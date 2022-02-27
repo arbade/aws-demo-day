@@ -3,8 +3,8 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:eu-central-1:461902953491:task-definition/arda-preprod:4"
+        TaskDefinition: "arn:aws:ecs:eu-central-1:461902953491:task-definition/arda-demo:6"
         LoadBalancerInfo:
-          ContainerName: "arda-preprod"
+          ContainerName: "arbade-demo"
           ContainerPort: 8080
         PlatformVersion: "LATEST"
