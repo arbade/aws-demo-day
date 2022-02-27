@@ -1,5 +1,5 @@
 #FROM adoptopenjdk/openjdk11:latest
-FROM 461902953491.dkr.ecr.eu-central-1.amazonaws.com/openjdk:latest
+FROM public.ecr.aws/j1g4g9x2/openjdk:latest
 
 EXPOSE 8080
 
