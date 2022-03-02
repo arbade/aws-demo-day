@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:eu-central-1:461902953491:task-definition/arda-demo-cloudcamp:1"
+        TaskDefinition: "arn:aws:ecs:eu-central-1:461902953491:task-definition/arda-demo-cloudcamp:2"
         LoadBalancerInfo:
           ContainerName: "arda-demo"
           ContainerPort: 8080
