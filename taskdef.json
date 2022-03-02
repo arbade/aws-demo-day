@@ -1,6 +1,6 @@
 {
   "ipcMode": null,
-  "executionRoleArn": "arn:aws:iam::461902953491:role/ecstaskexecution",
+  "executionRoleArn": "arn:aws:iam::461902953491:role/ecsTaskExecutionRole",
   "containerDefinitions": [
     {
       "dnsSearchDomains": null,
@@ -9,7 +9,7 @@
         "logDriver": "awslogs",
         "secretOptions": null,
         "options": {
-          "awslogs-group": "/ecs/arda-demo-2",
+          "awslogs-group": "/ecs/arda-demo-cloudcamp",
           "awslogs-region": "eu-central-1",
           "awslogs-stream-prefix": "ecs"
         }
@@ -37,7 +37,7 @@
       "memoryReservation": null,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "461902953491.dkr.ecr.eu-central-1.amazonaws.com/arda-demo:latest",
+      "image": "461902953491.dkr.ecr.eu-central-1.amazonaws.com/arda-demo:v1",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -64,8 +64,8 @@
     "EC2",
     "FARGATE"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:eu-central-1:461902953491:task-definition/arda-demo-2:2",
-  "family": "arda-demo-2",
+  "taskDefinitionArn": "arn:aws:ecs:eu-central-1:461902953491:task-definition/arda-demo-cloudcamp:1",
+  "family": "arda-demo-cloudcamp",
   "requiresAttributes": [
     {
       "targetId": null,
@@ -126,7 +126,7 @@
     "cpuArchitecture": null
   },
   "cpu": "1024",
-  "revision": 2,
+  "revision": 1,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
