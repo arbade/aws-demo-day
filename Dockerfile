@@ -5,5 +5,5 @@ EXPOSE 8080
 
 ADD target/gjg.jar gjg.jar
 
-#revertToChanges
+##revertToChanges
 ENTRYPOINT ["java","-jar","/gjg.jar"]
