@@ -34,12 +34,12 @@ public class SpringFoxConfig {
 
     private ApiInfo apiEndPointsInfo() {
 
-        return new ApiInfoBuilder().title("Demo GJC Backend Project")
-                .description("Demo GJC Backend Project REST API")
+        return new ApiInfoBuilder().title("Demo GJC Backend Project V2")
+                .description("Demo GJC Backend Project REST API V2")
                 .contact(new Contact("Arda Batuhan Demir", "www.google.com.tr", "ardabthn@gmail.com"))
                 .license("Apache 2.0")
                 .licenseUrl("http://www.apache.org/licenses/LICENSE-2.0.html")
-                .version("1.0.0")
+                .version("2.0.0")
                 .build();
 
     }
