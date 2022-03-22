@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:eu-central-1:461902953491:task-definition/arda-demo:11"
+        TaskDefinition: "arn:aws:ecs:eu-central-1:060373812940:task-definition/arda-demo:2"
         LoadBalancerInfo:
           ContainerName: "arda-demo"
           ContainerPort: 8080
