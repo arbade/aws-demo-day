@@ -16,7 +16,7 @@
 Design a REST API endpoint that manages a game that uses a leaderboard with players submitting new scores from around the world. The service will only be responsible for submitting player scores and returning leaderboard data either globally or country-specific.
 Players gain points by submitting scores and they are placed on the leaderboard by their scores. The player with the highest score will be at the top.
 
-## Pre-requirements
+## Tech-Stack
 
 - Maven 3.6.3
 
@@ -24,7 +24,7 @@ Players gain points by submitting scores and they are placed on the leaderboard 
 
 - Docker 19.03.13
 
-- MongoDB Cluster
+- MongoDB Cluster (AWS)
 
 - Swagger
 
@@ -34,9 +34,17 @@ Players gain points by submitting scores and they are placed on the leaderboard 
 
 - JPA Repository
 
-- Google Cloud Registery
+- Amazon Web Service Elastic Contanier Registry (AWS ECR)
 
-- Google Cloud Kubernetes Engine
+- Amazon Web Service Elastic Container Service (AWS ECS) via Fargate
+
+- Amazon Web Service Application Load Balancer (AWS ALB)
+
+- Amazon Web Service CodeBuild
+
+- Amazon Web Service CodeDeploy
+
+- Amazon Web Service CodePipeline
 
 ## Installation
 
