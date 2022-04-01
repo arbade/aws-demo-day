@@ -5,7 +5,7 @@
 ![Docker](https://img.shields.io/badge/docker%20build-passing-green)
 ![Image Size](https://img.shields.io/badge/image%20size-293%20MB-blue)
 ![Dependency](https://img.shields.io/badge/dependency-up--to--date-green)
-![Google Cloud](https://img.shields.io/badge/google--cloud-registery-blue)
+![AWS ECR](https://img.shields.io/badge/aws-ecr-orange)
 ![GKE](https://img.shields.io/badge/google--cloud-kubernetes-blue)
 ![Spring-Fox](https://img.shields.io/badge/spring--fox-swagger-orange)
 ![JUnit](https://img.shields.io/badge/Junit-v5-blue)
