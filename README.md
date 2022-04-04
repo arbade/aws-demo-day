@@ -18,6 +18,10 @@
 ![JUnit](https://img.shields.io/badge/Junit-v5-blue)
 ![Mongo](https://img.shields.io/badge/MongoDB-cluster-brightgreen)
 
+
+## AWS Community Day 2022
+
+[![AWS Community Day 2022](https://img.youtube.com/vi/Oil8oJBBDIQ/sddefault.jpg)](https://youtu.be/Oil8oJBBDIQ "AWS Community Day 2022")
 ## Overall
 
 Design a REST API endpoint that manages a game that uses a leaderboard with players submitting new scores from around the world. The service will only be responsible for submitting player scores and returning leaderboard data either globally or country-specific.
