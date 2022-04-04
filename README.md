@@ -1,4 +1,4 @@
-# GJG REST API DEMO
+# AWS DEMO DAY REST API 
 ![Spring Boot 2.4.2](https://img.shields.io/badge/spring--boot-2.4.2-green)
 ![Java 11](https://img.shields.io/badge/Java-11-green)
 ![Maven](https://img.shields.io/badge/maven-3.6.3-blue)
