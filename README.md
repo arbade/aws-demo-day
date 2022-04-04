@@ -10,7 +10,6 @@
 ![AWS ECS](https://img.shields.io/badge/aws-ecs-orange)
 ![AWS ELB](https://img.shields.io/badge/aws-elb-orange)
 ![AWS CodeBuild](https://img.shields.io/badge/aws-codebuild-orange)
-![AWS ELB](https://img.shields.io/badge/aws-elb-orange)
 ![AWS CodeDeploy](https://img.shields.io/badge/aws-codedeploy-orange)
 ![AWS CodePipeline](https://img.shields.io/badge/aws-codepipeline-orange)
 ![AWS Coretto](https://img.shields.io/badge/aws-coretto-orange)
