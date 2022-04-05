@@ -46,8 +46,6 @@ Players gain points by submitting scores and they are placed on the leaderboard 
 
 - JPA Repository
 
-- Amazon Web Service CodePipeline
-
 - Amazon Web Service Elastic Contanier Registry (AWS ECR)
 
 - Amazon Web Service Elastic Container Service (AWS ECS) via Fargate
