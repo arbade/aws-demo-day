@@ -140,11 +140,11 @@ There is a severaly on the way to run docker image on your local
     ```
 - - you would be able to reach `localhost:8080/swagger-ui.html` for REST API Controller UI
 
-- Another way to run docker image pulling from Google Cloud Registery
+- Another way to run docker image pulling from AWS ECR
 
-- - `docker pull gcr.io/deneme-232309/gjc:latest`
+- - `docker pull aws_account_id.dkr.ecr.us-west-2.amazonaws.com//gjc:latest`
 
-- - ` docker run -dp 8080:8080 gcr.io/deneme-232309/gjc`
+- - ` docker run -dp 8080:8080 aws_account_id.dkr.ecr.us-west-2.amazonaws.com/deneme-232309/gjc`
 
 
 
